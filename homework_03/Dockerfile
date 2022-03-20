@@ -1,4 +1,6 @@
-# to run container use cmd: docker run -it -p 8000:8000 webapp
+#To run container:
+#1.docker build . -t webapp
+#2.docker run -it -p 8000:8000 webapp
 FROM python:3.10-buster
 
 ENV PYTHONBUFFERED=1
